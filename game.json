@@ -1,0 +1,149 @@
+
+
+{
+  "passages": [
+    {
+      "text": "You are standing in the living room of the house.\n\n[[Kitchen->Kitchen]]\n[[Outside->Outside]]\n[[Up Stairs->Up Stairs]]",
+      "links": [
+        {
+          "name": "Kitchen",
+          "link": "Kitchen",
+          "pid": "2"
+        },
+        {
+          "name": "Outside",
+          "link": "Outside",
+          "pid": "3"
+        },
+        {
+          "name": "Up Stairs",
+          "link": "Up Stairs",
+          "pid": "4"
+        }
+      ],
+      "name": "Living Room",
+      "pid": "1",
+      "position": {
+        "x": "404",
+        "y": "170.5"
+      }
+    },
+    {
+      "text": "You are standing in the Kitchen of The House.\n\n[[Living Room->Living Room]] ",
+      "links": [
+        {
+          "name": "Living Room",
+          "link": "Living Room",
+          "pid": "1"
+        }
+      ],
+      "name": "Kitchen",
+      "pid": "2",
+      "position": {
+        "x": "329",
+        "y": "320.5"
+      }
+    },
+    {
+      "text": "You are standing outside looking at The House\n\n[[Inside->Living Room]] ",
+      "links": [
+        {
+          "name": "Inside",
+          "link": "Living Room",
+          "pid": "1"
+        }
+      ],
+      "name": "Outside",
+      "pid": "3",
+      "position": {
+        "x": "479",
+        "y": "320.5"
+      }
+    },
+    {
+      "text": "You are standing in the upper landing of The House.\n\n[[Master Bedroom->MasterBedroom]]\n[[Bedroom->Bedroom]]\n[[Bathroom->Bathroom]]\n[[Down Stairs->Living Room]] ",
+      "links": [
+        {
+          "name": "Master Bedroom",
+          "link": "MasterBedroom",
+          "pid": "5"
+        },
+        {
+          "name": "Bedroom",
+          "link": "Bedroom",
+          "pid": "6"
+        },
+        {
+          "name": "Bathroom",
+          "link": "Bathroom",
+          "pid": "7"
+        },
+        {
+          "name": "Down Stairs",
+          "link": "Living Room",
+          "pid": "1"
+        }
+      ],
+      "name": "Up Stairs",
+      "pid": "4",
+      "position": {
+        "x": "805",
+        "y": "93"
+      }
+    },
+    {
+      "text": "You are standing in the master bedroom of The House\n\n[[Leave->Up Stairs]] ",
+      "links": [
+        {
+          "name": "Leave",
+          "link": "Up Stairs",
+          "pid": "4"
+        }
+      ],
+      "name": "MasterBedroom",
+      "pid": "5",
+      "position": {
+        "x": "921",
+        "y": "315.5"
+      }
+    },
+    {
+      "text": "You are standing in the bedroom of The House\n\n[[Leave->Up Stairs]] ",
+      "links": [
+        {
+          "name": "Leave",
+          "link": "Up Stairs",
+          "pid": "4"
+        }
+      ],
+      "name": "Bedroom",
+      "pid": "6",
+      "position": {
+        "x": "1106",
+        "y": "283.5"
+      }
+    },
+    {
+      "text": "You are standing in the bathroom of The House\n\n[[Leave->Up Stairs]] ",
+      "links": [
+        {
+          "name": "Leave",
+          "link": "Up Stairs",
+          "pid": "4"
+        }
+      ],
+      "name": "Bathroom",
+      "pid": "7",
+      "position": {
+        "x": "690",
+        "y": "315.5"
+      }
+    }
+  ],
+  "name": "The House",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "E8A7FCF6-5EB3-469A-A310-541ED132E7E8"
+}
+
